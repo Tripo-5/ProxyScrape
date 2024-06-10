@@ -4,7 +4,7 @@ Automate the entire process using cron:
 Open the crontab editor:
 
 bash
-Copy code
+
 crontab -e
 
 Add the following lines to run the scripts periodically (e.g., every hour):
