@@ -11,8 +11,8 @@ Add the following lines to run the scripts periodically (e.g., every hour):
 
 bash
 Copy code
-0 * * * * /usr/bin/python3 /path/to/scrape_and_check_proxies.py
-5 * * * * /usr/bin/python3 /path/to/transfer_file.py
+0 * * * * /usr/bin/python3 /path/to/proxyscrape.py
+5 * * * * /usr/bin/python3 /path/to/proxytransfer.py
 
 Security Considerations
 SSH Keys: Use SSH keys instead of passwords for secure file transfer.
