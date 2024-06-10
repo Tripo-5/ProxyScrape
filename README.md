@@ -10,7 +10,7 @@ crontab -e
 Add the following lines to run the scripts periodically (e.g., every hour):
 
 bash
-Copy code
+
 0 * * * * /usr/bin/python3 /path/to/proxyscrape.py
 
 5 * * * * /usr/bin/python3 /path/to/proxytransfer.py
